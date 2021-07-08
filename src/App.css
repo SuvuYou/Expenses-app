@@ -1,0 +1,120 @@
+root {
+  --main-bg-color: hsl(348, 53%, 57%);
+}
+
+.container {
+  min-height: 100vh;
+  background-color: hsl(348, 53%, 57%);
+  min-width: 100vh;
+  max-width: 70%;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.form-label {
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+ul {
+  margin-top: 50px;
+  padding: 0;
+  list-style-type: none;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  max-width: 100%;
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.input-box {
+  width: 33.33%;
+}
+
+.input-label {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.list-controll-btn {
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin: 5px;
+  padding: 0;
+  color: rgb(92, 9, 9);
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.list-controll-btn:hover {
+  background-color: hsl(348, 53%, 57%);
+  color: white;
+  border: 1px solid white;
+}
+
+.list-controll-btn:active {
+  background-color: hsl(348, 53%, 47%);
+  color: white;
+  border: 1px solid white;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+li:hover {
+  background-color: hsl(348, 53%, 52%);
+}
+
+.expense-btn {
+  width: 100px;
+  height: 35px;
+  border: none;
+  margin: 5px;
+  padding: 0;
+  color: rgb(92, 9, 9);
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.expense-btn:hover {
+  background-color: hsl(348, 53%, 57%);
+  color: white;
+  border: 1px solid white;
+}
+
+.expense-btn:active {
+  background-color: hsl(348, 53%, 47%);
+  color: white;
+  border: 1px solid white;
+}
+
+.expense-value {
+  color: hsl(120, 73%, 75%);
+  font-size: 22px;
+}
+
+.expense-date {
+  font-size: 20px;
+}
